@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(0, 0, 24);
+    background-color: #000018;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,4 +32,24 @@ input:focus{
     -moz-box-shadow: 0 0 16px #fff;
     -webkit-box-shadow: 0 0 16px #fff;
     box-shadow: 0px 0px 16px #fff;
+}
+
+button{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000018;
+    border:0;
+    color:white;
+    margin-top: 1rem;
+    align-content: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-out;
+    border-radius: 6px;
+}
+
+button:hover{
+    transition: all 0.2s ease-out;
+    color: #000018;
+    background-color: white;
 }
